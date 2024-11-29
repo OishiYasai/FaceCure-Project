@@ -2,11 +2,17 @@
 
 ## Introduction
 
+This repository contains the code and resources for reproducing the experiments from the research paper "DATA POISONING WON'T SAVE YOU FROM FACIAL RECOGNITION". The project is part of the AI and Cybersecurity course, from the Master of Cybersecurity and Cyberdefence.
+(link to paper https://openreview.net/pdf?id=B5XahNLmna)
+
 ## Setup
+
+The experiments were performed on the HPC of the University of Luxembourg.
 
 ### Model files
 
 GitHub is limited to 100MB Files, that's why you need to download some files manually.
+https://drive.google.com/drive/folders/1D-EMXDRcx57aOUGSJSHWm-RLtn1bMK7W
 
 ### Dataset of People
 
@@ -30,7 +36,7 @@ install keras,tensorflow,pillow,scikit-learn
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
-## commands
+## Commands
 
 ### NN classifier
 
@@ -89,3 +95,14 @@ python ./FaceCure-main/eval_e2e.py --gpu 0 --attack-dir facescrub_fawkes_attack/
 #### lowkey
 
 python ./FaceCure-main/eval_e2e.py --gpu 0 --attack-dir facescrub_lowkey_attack/download/Aaron_Eckhart/face --facescrub-dir facescrub/download/ --unprotected-file-match small.png --protected-file-match attacked.png --robust --public-attack-dirs facescrub_fawkes_attack/download facescrub_lowkey_attack/download
+
+# Sources
+
+https://vintage.winklerbros.net/facescrub.html
+https://github.com/ftramer/FaceCure
+https://openreview.net/forum?id=hJmtwocEqzc
+https://sandlab.cs.uchicago.edu/fawkes/
+https://github.com/Shawn-Shan/fawkes
+https://github.com/Shawn-Shan/fawkes/releases/tag/v0.3
+https://github.com/IrvingMeng/MagFace/
+https://github.com/openai/CLIP
