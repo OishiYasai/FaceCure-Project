@@ -4,6 +4,9 @@
 
 https://github.com/ftramer/FaceCure
 
+Here you will find the main instructions to perform the experiments.
+In this repository we added additional instructions which helped us.
+
 ## Introduction
 
 This repository contains the code and resources for reproducing the experiments from the research paper "DATA POISONING WON'T SAVE YOU FROM FACIAL RECOGNITION". The project is part of the AI and Cybersecurity course, from the Master of Cybersecurity and Cyberdefence.
@@ -11,7 +14,7 @@ This repository contains the code and resources for reproducing the experiments 
 
 ## Setup
 
-The experiments were performed on the HPC of the University of Luxembourg.
+The experiments were performed on the HPC of the University of Luxembourg and on our personal computers.
 
 ### Model files
 
@@ -28,6 +31,8 @@ Proc. IEEE International Conference on Image Processing (ICIP), Paris, France, O
 
 Script to download the files:
 https://github.com/faceteam/facescrub
+
+We added a demo folder structure, but didn't include the files due to storage.
 
 ### Conda Env
 
@@ -122,3 +127,7 @@ https://github.com/Shawn-Shan/fawkes
 https://github.com/Shawn-Shan/fawkes/releases/tag/v0.3
 https://github.com/IrvingMeng/MagFace/
 https://github.com/openai/CLIP
+
+# Created by
+
+Licina Elvis & Noah Bartocci

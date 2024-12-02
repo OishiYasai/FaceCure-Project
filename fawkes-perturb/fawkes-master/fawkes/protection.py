@@ -91,7 +91,7 @@ class Fawkes(object):
             print("No images in the directory")
             return 3
 
-        faces = Faces(image_paths, loaded_images, self.aligner, verbose=1, no_align=no_align)
+        faces = Faces(image_paths, loaded_images, self.aligner, verbose=1, no_align=no_align, eval_local=True)
         original_images = faces.cropped_faces
 
         if len(original_images) == 0:
